@@ -1,0 +1,31 @@
+* {
+  margin: 0 auto;
+}
+
+.items {
+  color: black;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-gap: 20px;
+}
+.items img {
+  width: 300px;
+  height: 150px;
+}
+.items span {
+  font-size: 1em;
+}
+.items p {
+  margin-left: 20px;
+  text-align: left;
+}
+.items .name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.items div {
+  width: 300px;
+  height: 300px;
+  background: white;
+  border: 1px solid black;
+}/*# sourceMappingURL=item.css.map */
